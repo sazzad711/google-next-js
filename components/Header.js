@@ -23,7 +23,7 @@ function Header() {
         <header className="sticky top-0 bg-white">
             <div className="flex w-full p-6 items-center">
             <Image
-            src="https://logosmarken.com/wp-content/uploads/2020/09/Google-Logo.png"
+            src="https://logos-world.net/wp-content/uploads/2020/09/Google-Logo.png"
             height={60}
             width={130}
             onClick={() => router.push('/')}
@@ -34,7 +34,9 @@ function Header() {
             rounded-full shadow-lg max-w-3xl items-center">
                 <input ref={searchInputRef} 
                 className="flex-grow w-full focus:outline-none"
-                type="text" />
+                type="text" 
+                defaultValue={router.query.term}
+                />
                 <XIcon className="h-7 sm:mr-3 text-gray-500 cursor-pointer transition duration-100 transform hover:scale-125"
                 onClick={() => (searchInputRef.current.value = "")}
                 />

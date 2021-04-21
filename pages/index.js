@@ -46,7 +46,7 @@ export default function Home() {
        <form className="flex flex-col items-center mt-20 flex-grow w-4/5 ">
          <Image
          
-         src="https://logosmarken.com/wp-content/uploads/2020/09/Google-Logo.png" 
+         src="https://logos-world.net/wp-content/uploads/2020/09/Google-Logo.png" 
          alt="google logo"
          height={125}
          width={300}

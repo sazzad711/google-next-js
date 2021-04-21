@@ -1,5 +1,5 @@
 module.exports ={
     images: {
-        domains: ["logosmarken.com"], 
+        domains: ["logos-world.net"], 
     },
 };
